@@ -3,12 +3,14 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const reservationRoutes = require('./routes/reservationRoutes')
+const eventRoutes = require('./routes/eventRoutes')
 
 const app = express()
 
 app.use(express.json())
 
 app.use('/reservation', reservationRoutes)
+app.use('/event', eventRoutes)
 
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
