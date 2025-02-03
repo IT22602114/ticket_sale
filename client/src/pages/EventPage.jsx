@@ -25,7 +25,7 @@ const EventPage = () => {
         {events.map((event) => (
           <div 
             key={event.id} 
-            className="bg-white shadow-md rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform"
+            className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform"
           >
             <img 
               src={event.image} 
