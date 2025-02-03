@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const EventDetails = () => {
     const { id } = useParams()
     const [event, setEvent] = useState(null)
+    const navigate = useNavigate()
 
     useEffect(() => {
         const fetchEvent = async () => {
@@ -24,6 +25,10 @@ const EventDetails = () => {
         return <div className='text-center'>Loading...</div>;
     }
 
+    const handleReserveClick = () => {
+        navigate(`/reservation/${id}`);
+    }
+
   return (
     <div className="p-10">
       <h1 className="text-3xl font-bold mb-4 text-center">{event.title}</h1>
@@ -42,6 +47,14 @@ const EventDetails = () => {
               </li>
             ))}
           </ul>
+        </div>
+        <div className="mt-8 text-center">
+          <button 
+            onClick={handleReserveClick} 
+            className="bg-black text-white font-semibold py-2 px-6 rounded-lg hover:bg-gray-800"
+          >
+            Reserve Ticket
+          </button>
         </div>
       </div>
     </div>
