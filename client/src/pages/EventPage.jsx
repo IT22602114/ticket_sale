@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const EventPage = () => {
   const [events, setEvents] = useState([]);
@@ -23,6 +24,7 @@ const EventPage = () => {
       <h1 className="text-2xl font-bold mb-4 text-center">Upcoming Events</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {events.map((event) => (
+          <Link key={event.id} to={`/event/${event.id}`}>
           <div 
             key={event.id} 
             className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform"
@@ -39,6 +41,7 @@ const EventPage = () => {
               </p>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </div>
