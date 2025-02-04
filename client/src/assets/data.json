@@ -1,0 +1,102 @@
+{
+    "events": [
+      {
+        "id": "01",
+        "title": "3 days In-Person (Accommodation and food included!)",
+        "location": "Hall 01, Skytteholm Hotell & Conference",
+        "description": "Join us for 3 days of workshops, talks, and fun activities. Accommodation and food included!",
+        "price": 947,
+        "currency": "EUR",
+        "speakers": [
+          {
+            "name": "Emily Carter",
+            "role": "Frontend Developer"
+          },
+          {
+            "name": "Michael Zhang",
+            "role": "DevOps Engineer"
+          }
+        ],
+        "image": "https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Music-Concert-Event-Ticket-Design-scaled.jpg"
+      },
+      {
+        "id": "02",
+        "title": "2 days In-Person (Accommodation and food included!)",
+        "description": "Join us for 2 days of workshops, talks, and fun activities. Accommodation and food included!",
+        "location": "Hall 01, Skytteholm Hotell & Conference",
+        "price": 747,
+        "currency": "EUR",
+        "speakers": [
+          {
+            "name": "Sophia Lee",
+            "role": "Full Stack Developer"
+          },
+          {
+            "name": "Daniel Brown",
+            "role": "Cloud Architect"
+          }
+        ],
+        "image": "https://graphicsfamily.com/wp-content/uploads/2020/06/Night-Club-event-ticket-template-scaled.jpg"
+      },
+      {
+        "id": "03",
+        "title": "1 day Live Action In-Person",
+        "description": "Join us for a day of workshops, talks, and fun activities.",
+        "location": "Hall 01, Skytteholm Hotell & Conference",
+        "price": 97,
+        "currency": "EUR",
+        "speakers": [
+          {
+            "name": "Olivia Martinez",
+            "role": "UI/UX Designer"
+          },
+          {
+            "name": "Liam Wilson",
+            "role": "Mobile App Developer"
+          }
+        ],
+        "image": "https://img.freepik.com/free-vector/gradient-concert-ticket-template_23-2151325138.jpg?semt=ais_hybrid"
+      },
+      {
+        "id": "04",
+        "title": "2 days In-Person (NO accommodation and food included!)",
+        "description": "Join us for 2 days of workshops, talks, and fun activities. Please note that accommodation and food are not included in this package.",
+        "location": "Hall 01, Skytteholm Hotell & Conference",
+        "price": 447,
+        "currency": "EUR",
+        "speakers": [
+          {
+            "name": "Ava Taylor",
+            "role": "Data Scientist"
+          },
+          {
+            "name": "Noah Anderson",
+            "role": "Backend Developer"
+          }
+        ],
+        "image": "https://5.imimg.com/data5/SELLER/Default/2020/11/TB/MD/XS/14773041/event-ticket.jpg"
+      }
+    ],
+    "virtualEvents": [
+      {
+        "id": "05",
+        "title": "3 days Virtual Weekend",
+        "platform": "Zoom",
+        "time": "10:00 AM - 4:00 PM",
+        "description": "3 days Virtual Weekend",
+        "price": 247,
+        "currency": "EUR",
+        "speakers": [
+          {
+            "name": "Isabella Clark",
+            "role": "AI Engineer"
+          },
+          {
+            "name": "James White",
+            "role": "Cybersecurity Specialist"
+          }
+        ],
+        "image": "https://marketplace.canva.com/EAFkr9Jt85g/1/0/1600w/canva-black-beige-modern-music-festival-event-ticket-ujq6nKhFP8E.jpg"
+      }
+    ]
+  }
